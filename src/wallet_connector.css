@@ -1,0 +1,249 @@
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wallet-connector {
+  background-color: #161b22;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  text-align: center;
+  color: #c9d1d9;
+}
+
+.title {
+  color: #8b5cf6;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.wallet-button {
+  padding: 14px 28px;
+  font-size: 18px;
+  background-color: #8b5cf6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.wallet-button:disabled {
+  background-color: #6b7280;
+  cursor: not-allowed;
+}
+
+.wallet-button:hover:not(:disabled) {
+  background-color: #7c3aed;
+  transform: scale(1.05);
+}
+
+/* Wallet info section */
+.wallet-info {
+  margin-top: 30px;
+  background-color: #1c2128;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wallet-details {
+  margin-bottom: 20px;
+}
+
+.wallet-details p {
+  margin: 0;
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.transactions-section h3 {
+  color: #8b5cf6;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Transactions styling */
+.transactions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.transactions li {
+  padding: 10px;
+  background-color: #21262d;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.transactions li:hover {
+  background-color: #30363d;
+}
+
+.transactions p {
+  margin: 0;
+  font-size: 14px;
+  color: #a1a1aa;
+}
+
+/* Error message */
+.error {
+  color: red;
+  margin-top: 20px;
+  font-size: 16px;
+}
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wallet-connector {
+  background-color: #161b22;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  text-align: center;
+  color: #c9d1d9;
+}
+
+.title {
+  color: #8b5cf6;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.wallet-button {
+  padding: 14px 28px;
+  font-size: 18px;
+  background-color: #8b5cf6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.wallet-button:disabled {
+  background-color: #6b7280;
+  cursor: not-allowed;
+}
+
+.wallet-button:hover:not(:disabled) {
+  background-color: #7c3aed;
+  transform: scale(1.05);
+}
+
+/* Wallet info section */
+.wallet-info {
+  margin-top: 30px;
+  background-color: #1c2128;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wallet-details {
+  margin-bottom: 20px;
+}
+
+.wallet-details p {
+  margin: 0;
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.transactions-section h3 {
+  color: #8b5cf6;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Transactions styling */
+.transactions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.transactions li {
+  padding: 10px;
+  background-color: #21262d;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.transactions li:hover {
+  background-color: #30363d;
+}
+
+.transactions p {
+  margin: 0;
+  font-size: 14px;
+  color: #a1a1aa;
+}
+
+/* Error message */
+.error {
+  color: red;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .wallet-connector {
+    padding: 20px;
+  }
+
+  .wallet-button {
+    width: 100%;
+  }
+
+  .wallet-details, .transactions-section {
+    padding: 10px;
+  }
+}
+
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .wallet-connector {
+    padding: 20px;
+  }
+
+  .wallet-button {
+    width: 100%;
+  }
+
+  .wallet-details, .transactions-section {
+    padding: 10px;
+  }
+}

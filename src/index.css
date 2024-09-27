@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.wallet-connector {
+  text-align: center;
+  margin-top: 50px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wallet-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.wallet-button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+
+.wallet-button:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+.wallet-info, .transactions {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: left;
+}
+
+.transactions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transactions li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
 }
